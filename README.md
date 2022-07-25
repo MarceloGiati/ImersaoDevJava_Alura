@@ -1,6 +1,4 @@
 ![image](https://user-images.githubusercontent.com/90580011/180237420-240c18a6-c08f-47cc-985c-db1ca1d259ae.png)<br>
-
-# ImersaoDevJava_Alura<br>
 Esse projeto é um desafio realizado durante a Imersão java_da Alura<br>
 
 ## 1° Dia
