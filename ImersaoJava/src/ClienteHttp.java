@@ -15,6 +15,7 @@ public class ClienteHttp {
             HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
             String body = response.body();
             return body;
+
         } catch (IOException | InterruptedException ex) {
             throw new RuntimeException(ex);
         }

@@ -15,8 +15,12 @@ public class ConsumoApiFilmes {
         // String url = "https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060";
         // ExtratorConteudo extrator = new ExtratorConteudoImdb();
 
-        String url = "https://api.nasa.gov/planetary/apod?api_key=JC9PMT8QkCH1iJrxOppJVAwWP9GwBzxpD37JG1wL&start_date=2022-06-12&end_date=2022-06-14";
-        ExtratorConteudoNasa extrator = new ExtratorConteudoNasa();
+        // String url =
+        // "https://api.nasa.gov/planetary/apod?api_key=JC9PMT8QkCH1iJrxOppJVAwWP9GwBzxpD37JG1wL&start_date=2022-06-12&end_date=2022-06-14";
+        // ExtratorConteudoNasa extrator = new ExtratorConteudoNasa();
+
+        String url = "http://localhost:8080/linguagens";
+        ExtratorConteudo extrator = new ExtratorConteudoIMDB();
 
         ClienteHttp http = new ClienteHttp();
         String json = http.buscaDdados(url);
