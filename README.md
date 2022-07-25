@@ -1,5 +1,5 @@
 ![image](https://user-images.githubusercontent.com/90580011/180237420-240c18a6-c08f-47cc-985c-db1ca1d259ae.png)<br>
-Esse projeto é um desafio realizado durante a Imersão java_da Alura<br>
+Esse projeto é um desafio realizado durante a Imersão java_da Alura.<br>
 
 ## 1° Dia
 Esta aplicação tem como objetivo consumir a API do IMDB e retornar, de acordo com o que o usuário selecionar,<br>
