@@ -19,16 +19,16 @@ public class ConsumoApiFilmes {
         // "https://api.nasa.gov/planetary/apod?api_key=JC9PMT8QkCH1iJrxOppJVAwWP9GwBzxpD37JG1wL&start_date=2022-06-12&end_date=2022-06-14";
         // ExtratorConteudoNasa extrator = new ExtratorConteudoNasa();
 
-        String url = "http://localhost:8080/linguagens";
+        String url = "https://testelinguagensapi.herokuapp.com/linguagens";
         ExtratorConteudo extrator = new ExtratorConteudoIMDB();
 
         ClienteHttp http = new ClienteHttp();
         String json = http.buscaDdados(url);
 
-        // extrair e manipular os dados
+        // Extrair e manipular os dados
         List<Conteudo> conteudos = extrator.extraiConteudos(json);
 
-        // exibir e manipular dados
+        // Exibir e manipular dados
         for (int i = 0; i < 3; i++) {
             GeradorDeFiguras geradora = new GeradorDeFiguras();
             Conteudo conteudo = conteudos.get(i);

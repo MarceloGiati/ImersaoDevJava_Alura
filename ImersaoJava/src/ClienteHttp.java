@@ -7,7 +7,7 @@ import java.net.URI;
 
 public class ClienteHttp {
 
-    public String buscaDdados(String url) { // fazer uma conexão HTTP e buscar os top 250 filmes
+    public String buscaDdados(String url) { // Fazer uma conexão HTTP e buscar os top 250 filmes
         try {
             URI endereco = URI.create(url);
             HttpCliente client = HttpClient.newHttpClient();
