@@ -15,4 +15,5 @@ Foi feita uma refatoração do código, aplicando design patterns, conceitos de 
 ## 4° Dia
 Foi construido uma API REST para expor nosso próprio conteúdo, utilizando ferramentas como o Spring Framework<br>
 e um banco de dados NoSQL.<br>
-
+## 5 Dia
+Stickers para o whatsapp gerados e consumidos a partir da API disponibilizada no HEROKU.<br>
